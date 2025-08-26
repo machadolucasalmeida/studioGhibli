@@ -30,7 +30,8 @@ h6 {
 /*VARIABLES*/
 :root {
   --brand-color: #f1a5b1;
-  --brand-color-hover: #fd7186;
+  
+  --brand-color-hover: #ffb2be;
 
   --dark: #0b0a0a;
 

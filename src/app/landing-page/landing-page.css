@@ -95,6 +95,8 @@ DESKTOP > 992PX
             }
             button:hover{
                 background-color: var(--brand-color-hover);
+                box-shadow: 0 0 20px var(--brand-color-hover);
+                transform: scale(1.02);
             }
         }
     }
