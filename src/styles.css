@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+/*IMPORTS*/
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*RESET CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("../public/images/wallpaper.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Andada Pro", serif;
+}
+
+/*VARIABLES*/
+:root {
+  --brand-color: #f1a5b1;
+
+  --dark: #0b0a0a;
+
+  --white: #ffffff;
+}
+

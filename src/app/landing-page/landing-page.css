@@ -1,0 +1,97 @@
+/*
+
+MOBILE  =<  576PX
+TABLET > 576 && <= 992PX
+DESKTOP > 992PX
+
+*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 22px 14px;
+
+    .header {
+        .image-logo {
+            width: 101.49px;
+        }
+
+        .social-media-logo {
+            display: none;
+        }
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+
+        .body-image {
+            img {
+                width: 250px;
+            }
+        }
+
+        .text-content {
+            color: var(--white);
+
+            h3 {
+                font-size: 18px;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+
+            h1 {
+                font-size: 40px;
+                width: 270px;
+                font-weight: 800;
+                margin-bottom: 24px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 42px;
+            }
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+            min-width: 100%;
+
+            .button-logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--brand-color);
+                color: var(--dark);
+
+                .container-inside-button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 6px;
+
+                    img {
+                        width: 24px;
+                    }
+                }
+            }
+
+            button {
+                height: 54px;
+                border: 2px solid var(--brand-color);
+                border-radius: 5px;
+                background-color: transparent;
+                color: var(--white);
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+    }
+}
