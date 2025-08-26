@@ -93,11 +93,40 @@ DESKTOP > 992PX
                 font-weight: 700;
                 transition: .3s;
             }
-            button:hover{
+
+            button:hover {
                 background-color: var(--brand-color-hover);
                 box-shadow: 0 0 20px var(--brand-color-hover);
                 transform: scale(1.02);
+                cursor: pointer;
             }
         }
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        margin: 22px 120px;
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            .social-media-logo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 14px;
+            }
+        }
+
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        margin: 22px 500px;
     }
 }
