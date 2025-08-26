@@ -91,6 +91,10 @@ DESKTOP > 992PX
                 color: var(--white);
                 font-size: 18px;
                 font-weight: 700;
+                transition: .3s;
+            }
+            button:hover{
+                background-color: var(--brand-color-hover);
             }
         }
     }
